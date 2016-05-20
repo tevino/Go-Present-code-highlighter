@@ -21,10 +21,10 @@
   "content_scripts": [
     {
       "matches": ["*://*/*.slide"],
-      "css": ["lib/hl/styles/solarized-light.css", "src/contentStyle.css"],
+      "css": ["lib/hl/styles/github.css", "src/style-fix.css"],
       "js": ["lib/jquery.min.js", "lib/hl/highlight.pack.js", "src/initHighlight.js"]
     }
   ],
 
-  "manifest_version": 2
+  "manifest_version": 3
 }
